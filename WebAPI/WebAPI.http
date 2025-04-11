@@ -1,0 +1,6 @@
+@WebAPI_HostAddress = http://localhost:5119
+
+GET {{WebAPI_HostAddress}}/To-do-list/
+Accept: application/json
+
+###
