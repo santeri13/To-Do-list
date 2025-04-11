@@ -6,36 +6,36 @@ Database contain such structure:
 
 tasks - This table contain tasks for all lists
 ----------------------------------------------
-# NAME    # DATATYPE     # DESCRIPTION      #
-# id      # INT          # id of task       #
-# name    # VARCHAR(255) # task description #
-# comlete # BOOLEAN      # status of task   #
+  NAME      DATATYPE       DESCRIPTION       
+  id        INT            id of task        
+  name      VARCHAR(255)   task description  
+  comlete   BOOLEAN        status of task    
 ---------------------------------------------
 
 sub_lists - contain sublists and their names
 
 ------------------------------------------
-# NAME    # DATATYPE     # DESCRIPTION   #
-# id      # INT          # id list       #
-# name    # VARCHAR(256) # name of list  #
+  NAME      DATATYPE       DESCRIPTION    
+  id        INT            id list        
+  name      VARCHAR(256)   name of list   
 -----------------------------------------
 
 tasks_in_list - contain connection between lists and tasks to know in which list task included. By default id 1 is main to-do-list, others are sublists.
 
 ------------------------------------------------------------
-# NAME    # DATATYPE     # DESCRIPTION                     #
-# id      # INT          # id of record row                #
-# list_id # INT          # id of list from sub_lists table #
-# task_id # INT          # id of task from tasks table     #
+  NAME      DATATYPE       DESCRIPTION                      
+  id        INT            id of record row                 
+  list_id   INT            id of list from sub_lists table  
+  task_id   INT            id of task from tasks table      
 ------------------------------------------------------------
 
 completed_tasks - include data about completed tasks 
 
 --------------------------------------------------------------
-# NAME         # DATATYPE     # DESCRIPTION                  #
-# id           # INT          # id of record row             #
-# task_id      # INT          # id of task from tasks tabl   #
-# completed_at # DATETIME     # time when task is completed  #
+  NAME           DATATYPE       DESCRIPTION                   
+  id             INT            id of record row              
+  task_id        INT            id of task from tasks tabl    
+  completed_at   DATETIME       time when task is completed   
 --------------------------------------------------------------
 
 More infromation about structure of database could be found in database_script.sql.
