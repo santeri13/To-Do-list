@@ -477,6 +477,11 @@ namespace WebAPI.Controllers
         {
             try
             {
+
+                if (sub_list_id == 1)
+                {
+                    return BadRequest(new { message = "The default sublist with ID 1 cannot be deleted." });
+                }
                 // Retrieve the connection string from the configuration
                 string connectionString = _configuration.GetConnectionString("WebAPIContext");
 

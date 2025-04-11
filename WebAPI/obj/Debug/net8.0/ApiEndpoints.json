@@ -126,7 +126,7 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.TasksController",
-    "Method": "CreateNewTask",
+    "Method": "UpdateTask",
     "RelativePath": "Tasks/UpdateTask",
     "HttpMethod": "POST",
     "IsController": true,

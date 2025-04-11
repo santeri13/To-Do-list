@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|c:\\users\\sante\\documents\\to-do-list\\webapi\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|c:\\users\\sante\\documents\\to-do-list\\webapi\\done_tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|solutionrelative:done_tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|c:\\users\\sante\\documents\\to-do-list\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|c:\\users\\sante\\documents\\to-do-list\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EEE0AC0C-592F-403A-8A80-FA2435343EC6}|WebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-10T10:03:19.3Z",
+              "DocumentIndex": 1,
+              "Title": "Done_Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\Done_Tasks.cs",
+              "RelativeDocumentMoniker": "Done_Tasks.cs",
+              "ToolTip": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\Done_Tasks.cs",
+              "RelativeToolTip": "Done_Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:37:59.273Z",
               "EditorCaption": ""
             },
             {
@@ -51,20 +47,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:40:54.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\Task.cs",
-              "RelativeDocumentMoniker": "Task.cs",
-              "ToolTip": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\Task.cs",
-              "RelativeToolTip": "Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:40:22.337Z",
+              "WhenOpened": "2025-04-11T21:37:56.878Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +58,9 @@
               "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\sante\\Documents\\To-Do-list\\WebAPI\\Controllers\\TasksController.cs",
               "RelativeToolTip": "Controllers\\TasksController.cs",
-              "ViewState": "AgIAABUCAAAAAAAAAAAAAO4BAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAANgBAAAAAAAAAAAiwOMBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:02:50.357Z",
+              "WhenOpened": "2025-04-11T21:37:46.316Z",
               "EditorCaption": ""
             }
           ]
