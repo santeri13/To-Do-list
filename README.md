@@ -41,8 +41,10 @@ More infromation about structure of database could be found in database_script.s
 
 ## Structure of API app
 
-In **Contorllers/TaskController.cs** app is included all api request required by assesment base tasks
+In **Contorllers/TaskController.cs** app is included all api request required by assesment base tasks.
+
 **Done_Tasks.cs** and **Task.cs are** datastructre which is used to retrive data specifc way an dwork with it in list.
+
 **Program.cs** contain code required for Swager work.
 
 ## API
