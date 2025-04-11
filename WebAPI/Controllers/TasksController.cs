@@ -158,7 +158,7 @@ namespace WebAPI.Controllers
         // Task 4/7 Implement update operations within items (e.g., update task description, status)./ Allow marking tasks as done
         [HttpPost]
         [Route("UpdateTask")]
-        public IActionResult CreateNewTask(int task_id, string? task_description = null, bool? status = null) {
+        public IActionResult UpdateTask(int task_id, string? task_description = null, bool? status = null) {
 
             try
     {
@@ -233,15 +233,15 @@ namespace WebAPI.Controllers
 
                 // Define the SQL query to retrieve sublists and their associated tasks
                 string query = @"
-            SELECT 
-                sl.id AS SubListId, 
-                sl.name AS SubListName, 
-                t.id AS TaskId, 
-                t.name AS TaskName, 
-                t.complete AS TaskComplete
-            FROM sub_lists sl
-            LEFT JOIN tasks_in_list til ON sl.id = til.list_id
-            LEFT JOIN tasks t ON til.task_id = t.id";
+                SELECT 
+                    sl.id AS SubListId, 
+                    sl.name AS SubListName, 
+                    t.id AS TaskId, 
+                    t.name AS TaskName, 
+                    t.complete AS TaskComplete
+                FROM sub_lists sl
+                LEFT JOIN tasks_in_list til ON sl.id = til.list_id
+                LEFT JOIN tasks t ON til.task_id = t.id";
 
                 // Execute the query
                 using SqlCommand cmd = new SqlCommand(query, con);
